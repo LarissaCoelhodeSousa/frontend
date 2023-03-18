@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 01</title>
+</head>
+<body>
+
+    <!--Existem dois method de envio  GET e POST-->
+    <!--GET mais rápido, porém inseguro-->
+    <!--POST mais lendo, porém seguro-->
+
+    <form method="post">
+        <fieldset>
+            <legend>Cadastro de funcionário</legend>
+        Nome <input name="nome" type="text" required><br>
+        Idade <input name="idade" type="number" required><br>
+        Data Cadastro <input name="dtcad" type="date" required><br>
+        Email <input name="email" type="email" requerid>
+        Senha <input name="senha" type="password" requerid><br>
+        <hr>
+
+        Escolha sua especialidade:
+        <select name="Especialidade">
+            <option value="Cardio">Cardiologia</option>
+            <option value="Gineco">Ginecologia</option>
+            <option value="otorrino">Otorrionolaringologia</option>
+        </select>
+       
+        <input type="submit" value="Cadastrar" requerid>
+
+        </fieldset>
+
+
+
+
+    </form>
+
+
+    
+</body>
+</html>
